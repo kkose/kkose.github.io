@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: kkose @ Web
 locale: en_US
-description: Describe your website here.
+description: This will be my both personal and academic website. I will try to keep up-to-date as much as I can. Hopefully a blog will be included too.
 logo: site-logo.png
 search: true
 url: http://kkose.github.io
@@ -31,22 +31,22 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Kivanc Kose
   avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
+  email: kkoseug-at-gmail.com
+  disqus-shortname:kkose    
   twitter: #username
-  facebook: #username
-  github: #username
+  facebook: kkose
+  github: kkose
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: https://www.linkedin.com/profile/view?id=362222914&trk=hp-identity-name
   instagram: #username
   flickr: #username
   tumblr: #username
   pinterest: #username
   weibo: #userid
   google:
-    plus: #username
+    plus: kkose
     analytics:
     verify:
     ad-client:
