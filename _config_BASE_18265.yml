@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: kkose -at- Web
+title: kkose @ Web
 locale: en_US
 description: This will be my both personal and academic website. I will try to keep up-to-date as much as I can. Hopefully a blog will be included too.
-logo: slowloris.png
+logo: site-logo.png
 search: true
 url: http://kkose.github.io
 
@@ -32,9 +32,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Kivanc Kose
-  avatar: slowloris.png
+  avatar: bio-photo.jpg
   email: kkoseug-at-gmail.com
-  disqus-shortname: kkose    
+  disqus-shortname:kkose    
   twitter: #username
   facebook: kkose
   github: kkose
