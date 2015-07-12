@@ -7,7 +7,7 @@ excerpt:
 tags: []
 image:
   feature:
-date: 2014-08-08T15:39:55-04:00
+date: 2015-08-07T15:39:55-04:00
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
