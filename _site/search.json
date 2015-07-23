@@ -3,7 +3,7 @@
   
     {
       "title"			: "Under Construction",
-      "link"			: "http://127.0.0.1:4000//blog/hello-world/",
+      "link"			: "http://kkose.github.io/blog/hello-world/",
       "excerpt"		: ""
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "Automated Delineation of Dermal–Epidermal Junction in Reflectance Confocal Microscopy Image Stacks of Human Skin",
-      "link"			: "http://127.0.0.1:4000//articles/JID2014/",
+      "link"			: "http://kkose.github.io/articles/JID2014/",
       "excerpt"		: "A Machine Learning based method for DEJ delineation"
     }
   
@@ -29,7 +29,7 @@
   
     ,{
       "title"			: "Kivanc Kose - kkose",
-      "link"			: "http://127.0.0.1:4000//about/",
+      "link"			: "http://kkose.github.io/about/",
       "excerpt"		: "Personal Information"
     }
   
@@ -37,7 +37,7 @@
   
     ,{
       "title"			: "Search",
-      "link"			: "http://127.0.0.1:4000//search/",
+      "link"			: "http://kkose.github.io/search/",
       "excerpt"		: ""
     }
   
@@ -47,7 +47,7 @@
   
     ,{
       "title"			: "Theme Setup",
-      "link"			: "http://127.0.0.1:4000//theme-setup/",
+      "link"			: "http://kkose.github.io/theme-setup/",
       "excerpt"		: "Instructions on how to install and customize the Jekyll theme So Simple."
     }
   
