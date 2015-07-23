@@ -5,7 +5,7 @@ locale: en_US
 description: This will be my both personal and academic website. I will try to keep up-to-date as much as I can. Hopefully a blog will be included too.
 logo: slowloris.png
 search: true
-url: http://kkose.github.io
+url: http://kkose.github.io #http://127.0.0.1:4000/  #
 
 # Jekyll configuration
 
@@ -34,20 +34,20 @@ owner:
   name: Kivanc Kose
   avatar: slowloris.png
   email: kkoseug-at-gmail.com
-  disqus-shortname: kkose    
+  disqus-shortname: 
   twitter: #username
   facebook: kkose
   github: kkose
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: Kivanc Kose
-  instagram: #username
+  linkedin: kivanc-kose/a1/383/8aa
+  instagram: kkoseug
   flickr: #username
   tumblr: #username
   pinterest: #username
   weibo: #userid
   google:
-    plus: kkose
-    analytics:
+    plus: u/0/+KivancKose/posts
+    analytics: UA-65534440-1
     verify:
     ad-client:
     ad-slot:

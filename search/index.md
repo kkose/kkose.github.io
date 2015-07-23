@@ -6,7 +6,7 @@ modified:
 excerpt:
 image:
   feature:
-search_omit: true
+search_omit: false
 sitemap: false
 ---
   
