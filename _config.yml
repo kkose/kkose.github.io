@@ -55,7 +55,7 @@ owner:
   bing-verify:
 
 # Gallery Properties
-  gallery: 
+gallery: 
   # path to the gallery
   dir: photos
   # title for gallery index
