@@ -4,13 +4,35 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://kkose.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://kkose.github.io" />
-<updated>2015-07-23T13:22:28-04:00</updated>
+<updated>2015-07-24T14:13:54-04:00</updated>
 <id>http://kkose.github.io/</id>
 <author>
   <name>Kivanc Kose</name>
   <uri>http://kkose.github.io/</uri>
   <email>kkoseug-at-gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Moscow Trip]]></title>
+  <link rel="alternate" type="text/html" href="http://kkose.github.io/travel/hello-world/" />
+  <id>http://kkose.github.io/travel/hello-world</id>
+  <published>2015-07-25T11:49:55-04:00</published>
+  <updated>2015-07-25T11:49:55-04:00</updated>
+  <author>
+    <name>Kivanc Kose</name>
+    <uri>http://kkose.github.io</uri>
+    <email>kkoseug-at-gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I and Bilge went to Moscow during our summer holiday. You can see the picture from our trip at &lt;a href=&quot;/photos/Moscow&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://kkose.github.io/travel/hello-world/&quot;&gt;Moscow Trip&lt;/a&gt; was originally published by Kivanc Kose at &lt;a href=&quot;http://kkose.github.io&quot;&gt;kkose -at- Web&lt;/a&gt; on July 25, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   

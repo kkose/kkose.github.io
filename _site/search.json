@@ -2,6 +2,14 @@
 
   
     {
+      "title"			: "Moscow Trip",
+      "link"			: "http://kkose.github.io/travel/hello-world/",
+      "excerpt"		: "Our trip to Moscow - 18-22 July 2015"
+    }
+  
+
+  
+    ,{
       "title"			: "Under Construction",
       "link"			: "http://kkose.github.io/blog/hello-world/",
       "excerpt"		: ""
@@ -17,8 +25,6 @@
   
 
 
-
-  
 
   
 
@@ -45,6 +51,8 @@
   
 
   
+
+  
     ,{
       "title"			: "Theme Setup",
       "link"			: "http://kkose.github.io/theme-setup/",
@@ -58,6 +66,30 @@
 
   
 
+  
+
+  
+    ,{
+      "title"			: "Photos: Moscow",
+      "link"			: "http://kkose.github.io/photos/moscow/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Photos: Turkey",
+      "link"			: "http://kkose.github.io/photos/turkey/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Photos",
+      "link"			: "http://kkose.github.io/photos/",
+      "excerpt"		: ""
+    }
   
 
 ]
