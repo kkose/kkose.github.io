@@ -13,4 +13,4 @@ date: 2015-07-25T11:49:55-04:00
 
 I and Bilge went to Moscow during our summer holiday. You can see the picture from our trip at [here][MoscowPhotos]
 
-[MoscowPhotos]: /photos/Moscow
+[MoscowPhotos]: /photos/moscow
