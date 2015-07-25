@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://kkose.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://kkose.github.io" />
-<updated>2015-07-25T11:02:32-04:00</updated>
+<updated>2015-07-25T11:20:40-04:00</updated>
 <id>http://kkose.github.io/</id>
 <author>
   <name>Kivanc Kose</name>
@@ -27,7 +27,7 @@
     <email>kkoseug-at-gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;I and Bilge went to Moscow during our summer holiday. You can see the picture from our trip at &lt;a href=&quot;/photos/moscow/index.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;I and Bilge went to Moscow during our summer holiday. You can see the picture from our trip at &lt;a href=&quot;/photos/moscow/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;http://kkose.github.io/travel/hello-world/&quot;&gt;Moscow Trip&lt;/a&gt; was originally published by Kivanc Kose at &lt;a href=&quot;http://kkose.github.io&quot;&gt;kkose -at- Web&lt;/a&gt; on July 25, 2015.&lt;/p&gt;
