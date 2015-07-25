@@ -7,9 +7,18 @@ logo: slowloris.png
 search: true
 url: http://kkose.github.io #http://127.0.0.1:4000/ #
 
+#Where the things are
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+data_source: ./_data
+collections: null
+
 # Jekyll configuration
 
 permalink:   /:categories/:title/
+paginate_path: /page:num
 markdown:    kramdown
 highlighter: pygments
 sass:
