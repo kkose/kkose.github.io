@@ -1,0 +1,95 @@
+[
+
+  
+    {
+      "title"			: "Moscow Trip",
+      "link"			: "http://kkose.github.io/travel/hello-world/",
+      "excerpt"		: "Our trip to Moscow - 18-22 July 2015"
+    }
+  
+
+  
+    ,{
+      "title"			: "Under Construction",
+      "link"			: "http://kkose.github.io/blog/hello-world/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Automated Delineation of Dermal–Epidermal Junction in Reflectance Confocal Microscopy Image Stacks of Human Skin",
+      "link"			: "http://kkose.github.io/articles/JID2014/",
+      "excerpt"		: "A Machine Learning based method for DEJ delineation"
+    }
+  
+
+
+
+  
+
+  
+
+  
+
+  
+    ,{
+      "title"			: "Kivanc Kose - kkose",
+      "link"			: "http://kkose.github.io/about/",
+      "excerpt"		: "Personal Information"
+    }
+  
+
+  
+    ,{
+      "title"			: "Search",
+      "link"			: "http://kkose.github.io/search/",
+      "excerpt"		: ""
+    }
+  
+
+  
+
+  
+
+  
+    ,{
+      "title"			: "Theme Setup",
+      "link"			: "http://kkose.github.io/theme-setup/",
+      "excerpt"		: "Instructions on how to install and customize the Jekyll theme So Simple."
+    }
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    ,{
+      "title"			: "Photos: Moscow",
+      "link"			: "http://kkose.github.io/Photos/moscow/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Photos: Turkey",
+      "link"			: "http://kkose.github.io/Photos/turkey/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Photos",
+      "link"			: "http://kkose.github.io/Photos/",
+      "excerpt"		: ""
+    }
+  
+
+]
