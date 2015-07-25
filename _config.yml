@@ -5,7 +5,7 @@ locale: en_US
 description: This will be my both personal and academic website. I will try to keep up-to-date as much as I can. Hopefully a blog will be included too.
 logo: slowloris.png
 search: true
-url: http://kkose.github.io #http://127.0.0.1:4000/ #
+url: http://kkose.github.io/ #http://127.0.0.1:4000/ #
 
 #Where the things are
 source:      .
@@ -66,7 +66,7 @@ owner:
 # Gallery Properties
 gallery: 
   # path to the gallery
-  dir: photos
+  dir: Photos
   # title for gallery index
   title: "Photos"
   # title prefix for gallery page. title=title_prefix+gallery_name
