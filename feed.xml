@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">kkose -at- Web</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://kkose.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://kkose.github.io" />
+<updated>2015-07-25T13:16:06-04:00</updated>
+<id>http://kkose.github.io/</id>
+<author>
+  <name>Kivanc Kose</name>
+  <uri>http://kkose.github.io/</uri>
+  <email>kkoseug-at-gmail.com</email>
+</author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Moscow Trip]]></title>
+  <link rel="alternate" type="text/html" href="http://kkose.github.io/travel/hello-world/" />
+  <id>http://kkose.github.io/travel/hello-world</id>
+  <published>2015-07-25T11:49:55-04:00</published>
+  <updated>2015-07-25T11:49:55-04:00</updated>
+  <author>
+    <name>Kivanc Kose</name>
+    <uri>http://kkose.github.io</uri>
+    <email>kkoseug-at-gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I and Bilge went to Moscow during our summer holiday. You can see the picture from our trip at &lt;a href=&quot;/Photos/moscow/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://kkose.github.io/travel/hello-world/&quot;&gt;Moscow Trip&lt;/a&gt; was originally published by Kivanc Kose at &lt;a href=&quot;http://kkose.github.io&quot;&gt;kkose -at- Web&lt;/a&gt; on July 25, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Under Construction]]></title>
+  <link rel="alternate" type="text/html" href="http://kkose.github.io/blog/hello-world/" />
+  <id>http://kkose.github.io/blog/hello-world</id>
+  <published>2015-07-23T15:39:55-04:00</published>
+  <updated>2015-07-23T15:39:55-04:00</updated>
+  <author>
+    <name>Kivanc Kose</name>
+    <uri>http://kkose.github.io</uri>
+    <email>kkoseug-at-gmail.com</email>
+  </author>
+  <content type="html">
+    
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;I&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;have&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blog&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Still&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;under&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;construction&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://kkose.github.io/blog/hello-world/&quot;&gt;Under Construction&lt;/a&gt; was originally published by Kivanc Kose at &lt;a href=&quot;http://kkose.github.io&quot;&gt;kkose -at- Web&lt;/a&gt; on July 23, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Automated Delineation of Dermal–Epidermal Junction in Reflectance Confocal Microscopy Image Stacks of Human Skin]]></title>
+  <link rel="alternate" type="text/html" href="http://kkose.github.io/articles/JID2014/" />
+  <id>http://kkose.github.io/articles/JID2014</id>
+  <updated>2015-07-23T00:00:00-00:00</updated>
+  <published>2015-07-23T00:00:00-04:00</published>
+  
+  <author>
+    <name>Kivanc Kose</name>
+    <uri>http://kkose.github.io</uri>
+    <email>kkoseug-at-gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;!-- Header part --&gt;
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+  MathJax.Hub.Config({tex2jax: {inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]]}});
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
+
+&lt;p&gt;Reflectance confocal microscopy (RCM) images skin noninvasively, with optical sectioning and nuclear-level resolution comparable with that of pathology. On the basis of the assessment of the dermal–epidermal junction (DEJ) and morphologic features in its vicinity, skin cancer can be diagnosed in vivo with high sensitivity and specificity. However, the current visual, qualitative approach for reading images leads to subjective variability in diagnosis. We hypothesize that machine learning–based algorithms may enable a more quantitative, objective approach. Testing and validation were performed with two algorithms that can automatically delineate the DEJ in RCM stacks of normal human skin. The test set was composed of 15 fair- and 15 dark-skin stacks (30 subjects) with expert labelings. In dark skin, in which the contrast is high owing to melanin, the algorithm produced an average error of $7.9\pm6.4 \mu m$. In fair skin, the algorithm delineated the DEJ as a transition zone, with average error of $8.3\pm5.8 \mu m$ for the epidermis-to-transition zone boundary and $7.6 \pm 5.6 \mu m$ for the transition zone-to-dermis. Our results suggest that automated algorithms may quantitatively guide the delineation of the DEJ, to assist in objective reading of RCM images. Further development of such algorithms may guide assessment of abnormal morphological features at the DEJ.&lt;/p&gt;
+
+&lt;p&gt;You can access the full PDF from &lt;a href=&quot;http://www.nature.com/jid/journal/v135/n3/abs/jid2014379a.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://kkose.github.io/articles/JID2014/&quot;&gt;Automated Delineation of Dermal–Epidermal Junction in Reflectance Confocal Microscopy Image Stacks of Human Skin&lt;/a&gt; was originally published by Kivanc Kose at &lt;a href=&quot;http://kkose.github.io&quot;&gt;kkose -at- Web&lt;/a&gt; on July 23, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>
