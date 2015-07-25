@@ -5,7 +5,7 @@ locale: en_US
 description: This will be my both personal and academic website. I will try to keep up-to-date as much as I can. Hopefully a blog will be included too.
 logo: slowloris.png
 search: true
-url: http://kkose.github.io/ #http://127.0.0.1:4000/ #
+url: http://kkose.github.io #http://127.0.0.1:4000/ #
 
 #Where the things are
 source:      .
@@ -18,6 +18,7 @@ collections: null
 # Jekyll configuration
 
 permalink:   /:categories/:title/
+paginate: 10
 paginate_path: /page:num
 markdown:    kramdown
 highlighter: pygments
@@ -35,7 +36,7 @@ kramdown:
   toc_levels: 1..2
   use_coderay: false
 
-include: [".htaccess"]
+include: [".htaccess","photos"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
 
