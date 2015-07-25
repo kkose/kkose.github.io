@@ -71,7 +71,7 @@
   
     ,{
       "title"			: "Photos: Moscow",
-      "link"			: "http://kkose.github.io/Photos/moscow/",
+      "link"			: "http://kkose.github.io/photos/moscow/",
       "excerpt"		: ""
     }
   
@@ -79,7 +79,7 @@
   
     ,{
       "title"			: "Photos: Turkey",
-      "link"			: "http://kkose.github.io/Photos/turkey/",
+      "link"			: "http://kkose.github.io/photos/turkey/",
       "excerpt"		: ""
     }
   
@@ -87,7 +87,7 @@
   
     ,{
       "title"			: "Photos",
-      "link"			: "http://kkose.github.io/Photos/",
+      "link"			: "http://kkose.github.io/photos/",
       "excerpt"		: ""
     }
   
