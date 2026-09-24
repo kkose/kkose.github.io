@@ -6,6 +6,7 @@ permalink: /teaching/
 
 <ul class="dated">
 <li><span class="when">2023–present</span><span><strong>AI for Existing Buildings</strong>, Columbia University — machine learning for M.Sc. and M.A. students</span></li>
+  <li><span class="when">2026–present</span><span><strong>AI for Existing Buildings</strong>, Middle East Technical University — machine learning for M.Sc. and M.A. students</span></li>
 </ul>
 
 I also teach machine learning and computer vision to medical fellows, students and colleagues at MSK. I believe AI belongs in continuing medical education so clinicians can use it effectively and responsibly.
@@ -37,7 +38,7 @@ I also teach machine learning and computer vision to medical fellows, students a
 
 <ul class="dated">
 <li><span class="when">2013–present</span><span><strong>Associate Editor</strong>, <a href="https://link.springer.com/journal/11760">Signal, Image and Video Processing</a></span></li>
-<li><span class="when">ongoing</span><span>Coordinator, International Skin Imaging Collaboration (ISIC) machine-learning challenges</span></li>
+<li><span class="when">ongoing</span><span>Contributor, International Skin Imaging Collaboration (ISIC) machine-learning challenges</span></li>
 <li><span class="when">2025</span><span><strong>Grant Reviewer</strong>, Department of Defense</span></li>
 <li><span class="when">2023–2024</span><span><strong>Scientific Program Committee</strong> member and session chair, Optica (OSA)</span></li>
 <li><span class="when">2012–present</span><span><strong>Journal reviewer</strong>: IEEE Transactions on Image Processing, IEEE Signal Processing, Digital Signal Processing, Journal of Biomedical Optics, Scientific Reports, Machine Learning for Biomedical Imaging, Biocybernetics and Biomedical Engineering</span></li>
