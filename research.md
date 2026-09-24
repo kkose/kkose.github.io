@@ -28,6 +28,13 @@ Clinical AI has to be reliable, not only accurate. With Jennifer Dy's group at N
 
 I apply these methods beyond the skin: AI-assisted RCM for intraoperative margin assessment in oral squamous cell carcinoma, in vivo detection of oral lesions in outpatient clinics in India, and smartphone-based oral lesion screening for low-resource settings.
 
+## Research presentations
+
+<ul class="dated">
+<li><span class="when">2026</span><span><strong><a href="/Presentations/CDRCM/CD-RCM%20Explainer.html">CD-RCM: Generalizable Continuous-Depth Novel View Synthesis for Reflectance Confocal Microscopy</a></strong><br><span class="meta">Imtiaz, Rajadhyaksha, Kose, Dy · <a href="/Presentations/CDRCM/05_Summary_CD-RCM.md">summary</a></span></span></li>
+<li><span class="when">2026</span><span><strong><a href="/Presentations/GroundedMLLM/VLM%20Explainer.html">Grounding Multimodal LLMs with Quantitative Skin Attributes: A Retrieval Study</a></strong><br><span class="meta">Torop, Eskandar, Kurtansky, Liu, Weber, Camps, Rotemberg, Dy, Kose · <a href="/Presentations/GroundedMLLM/04_Summary_MLLM_Attribute_Grounding.md">summary</a></span></span></li>
+</ul>
+
 ## Research funding
 
 ### Current
