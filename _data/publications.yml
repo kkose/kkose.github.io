@@ -1,0 +1,686 @@
+# Full publication list, newest first. Rendered on /publications/ (grouped by year)
+# and on the home page (entries with `selected: true`).
+# Fields: title, authors, venue, year (omit if unknown), url (optional), selected (optional).
+# Write your own name as "K Kose" so it is highlighted.
+
+# ---- 2026
+- title: 'Response to Maheshwari et al., "Letter to the editor: Comparing dermatologists'' and artificial intelligence heat maps in dermoscopic image analysis via eye tracking"'
+  authors: "N Kremer, L Polo-Silveira, S Bajaj, S Sattler, A Halpern, U Bagci, ..."
+  venue: "Journal of the American Academy of Dermatology"
+  year: 2026
+- title: "Assessing the performance of a skin cancer triage algorithm with 3D total body photography"
+  authors: "MC Gillis, T Pham, N Kurtansky, AD Cook, DN Notghi, J Weber, A Halpern, ..."
+  venue: "Journal of Investigative Dermatology 146(8), S14"
+  year: 2026
+- title: "Comparing dermatologist and artificial intelligence heat maps in dermoscopic image analysis via eye tracking"
+  authors: "N Kremer, L Polo-Silveira, S Bajaj, S Sattler, A Halpern, U Bagci, ..."
+  venue: "Journal of Investigative Dermatology 146(8), S12"
+  year: 2026
+- title: "CD-RCM: Generalizable continuous-depth novel view synthesis for reflectance confocal microscopy"
+  authors: "T Imtiaz, M Rajadhyaksha, K Kose, J Dy"
+  venue: "arXiv:2606.12635"
+  year: 2026
+  url: https://arxiv.org/abs/2606.12635
+- title: "Artificial intelligence–assisted reflectance confocal microscopy for real-time intraoperative margin assessment in oral squamous cell carcinoma"
+  authors: "F Hosseinzadeh, D Zanoni, PD de Souza França, C Valero, G Peterson, ..."
+  venue: "Oral Oncology 177, 107939"
+  year: 2026
+- title: "In vivo imaging of oral cancer at a tertiary cancer hospital in India"
+  authors: "A Sahu, AK Bains, I Shinde, P Terwadkar, P Chandrani, K Kose, ..."
+  venue: "Microscopy Histopathology and Analytics, MM1B.2"
+  year: 2026
+- title: "Incubating artificial intelligence initiatives and careers in dermatology"
+  authors: "S Wongvibulsin, CA Primiero, AS Adamson, C Barata, B Betz-Stablein, ..."
+  venue: "Journal of Investigative Dermatology"
+  year: 2026
+- title: "Detection of oral lesions in vivo with reflectance confocal microscopy in an outpatient clinic setting in India"
+  authors: "A Sahu, AK Bains, I Shinde, P Terwadkar, P Chandrani, K Kose, ..."
+  venue: "Imaging, Therapeutics, and Advanced Technology in Head and Neck Surgery and Otolaryngology (SPIE)"
+  year: 2026
+- title: "Comparing dermatologist and artificial intelligence heat maps in dermoscopic image analysis via eye tracking"
+  authors: "N Kremer, L Polo-Silveira, S Bajaj, S Sattler, A Halpern, U Bagci, ..."
+  venue: "Journal of the American Academy of Dermatology"
+  year: 2026
+- title: "Noninvasive diagnosis of melanoma using machine learning and reflectance confocal microscopy"
+  authors: "J Kentley, N Kurtansky, M Jain, M Cordova, J Weber, U Harris, A Alfonso, AC Halpern, V Rotemberg, M Rajadhyaksha, K Kose"
+  venue: "Journal of Investigative Dermatology 146(1), 274–276.e1"
+  year: 2026
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12404568/
+  selected: true
+
+# ---- 2025
+- title: "Automated triage of cancer-suspicious skin lesions with 3D total-body photography"
+  authors: "NR Kurtansky, MC Gillis, NCF Codella, BM D'Alessandro, Z Ge, P Guitera, AC Halpern, ..., V Rotemberg, K Kose"
+  venue: "npj Digital Medicine 8(1), 708"
+  year: 2025
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12639164/
+  selected: true
+- title: "On the role of calibration in benchmarking algorithmic fairness for skin cancer detection"
+  authors: "B Dominique, P Lam, N Kurtansky, J Weber, K Kose, V Rotemberg, J Dy"
+  venue: "arXiv:2511.07700"
+  year: 2025
+  url: https://arxiv.org/abs/2511.07700
+- title: "Optical superhigh magnification dermatoscopy versus reflectance confocal microscopy: A practical approach to in vivo vascular biology imaging"
+  authors: "L Polo-Silveira, A Marghoob, K Kose, M Cordova, A Sahu"
+  venue: "JAAD Case Reports 65, 145–146"
+  year: 2025
+- title: "Grounding multimodal large language models with quantitative skin attributes: A retrieval study"
+  authors: "M Torop, M Eskandar, N Kurtansky, J Liu, J Weber, O Camps, ..."
+  venue: "arXiv:2508.20188"
+  year: 2025
+  url: https://arxiv.org/abs/2508.20188
+- title: "Photographic quantification of actinic keratoses using human and artificial intelligence-based assessment: A pilot study"
+  authors: "Y Li, V Liao, IR Nykaza, MM Ong, K Kose, NR Kurtansky, AC Halpern, ..."
+  venue: "Journal of Investigative Dermatology"
+  year: 2025
+- title: "Predicting malignancy in longitudinally monitored skin lesions with AI"
+  authors: "MC Gillis, N Kurtansky, J Weber, K Bell, P Guitera, J Dy, K Kose, ..."
+  venue: "Journal of Investigative Dermatology 145(8), S22"
+  year: 2025
+- title: "AI-driven reflectance confocal microscopy for noninvasive diagnosis and accurate surgical margin assessment intra-operatively in oral cavity squamous cell carcinoma"
+  authors: "F Hosseinzadeh, D Zanoni, P Demetrio, C Valero, G Peterson, M Ardigo, ..."
+  venue: "Journal of Clinical Oncology 43(16_suppl), 6082"
+  year: 2025
+- title: "Combining wide-field imaging and reflectance confocal microscopy in a single handheld device"
+  authors: "NJ Smith, J Wigle, K Kose, G Peterson, G Blough, Z Baltzer, P Hemmer, ..."
+  venue: "Photonics in Dermatology and Plastic Surgery 2025, Proc. SPIE 13292, 8–14"
+  year: 2025
+
+# ---- 2024
+- title: "Artificial intelligence in the non-invasive detection of melanoma"
+  authors: "B İsmail Mendi, K Kose, L Fleshner, R Adam, B Safai, B Farabi, MF Atak"
+  venue: "Life 14(12), 1602"
+  year: 2024
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11678477/
+  selected: true
+- title: "Artificial intelligence algorithms and three-dimensional volumetric rendering for basal cell carcinoma detection and tumour depth assessment in reflectance confocal microscopy …"
+  authors: "A Pan, N de Carvalho, L Silva, U Harris, S Dusza, A Sahu, K Kose, ..."
+  venue: "Clinical and Experimental Dermatology 49(11), 1420–1423"
+  year: 2024
+- title: "Artificial intelligence algorithms for the automated detection and depth measurement of basal cell carcinoma in RCM-OCT images: a pilot, proof-of-concept study"
+  authors: "A Pan, L Silva, N de Carvalho, U Harris, A Sahu, K Kose, J Monnier, ..."
+  venue: "Journal of the American Academy of Dermatology 91(3), AB127"
+  year: 2024
+- title: "The SLICE-3D dataset: 400,000 skin lesion image crops extracted from 3D TBP for skin cancer detection"
+  authors: "NR Kurtansky, BM D'Alessandro, MC Gillis, B Betz-Stablein, ..., K Kose, ..., V Rotemberg"
+  venue: "Scientific Data 11(1), 884"
+  year: 2024
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11324883/
+  selected: true
+- title: "A prospective double-blinded comparison of reflectance confocal microscopy with conventional histopathology for in vivo assessment in oral cancer"
+  authors: "DK Zanoni, P Demétrio De Souza França, C Valero, G Peterson, M Ardigo, ..."
+  venue: "Clinical Cancer Research 30(11), 2486–2496"
+  year: 2024
+- title: "Towards visually interpreting variational autoencoders"
+  authors: "R Li, W Liu, M Zheng, M Torop, M Rajadhyaksha, J Dy, K Kose, ..."
+  venue: "Preprint"
+  year: 2024
+- title: "Deep neural network-based classification of spectrally encoded confocal microscopy images of breast cancer tissue"
+  authors: "A Nessaee, K Kose, EF Brachtel, D Kang"
+  venue: "Microscopy Histopathology and Analytics, MM3A.6"
+  year: 2024
+- title: "3D reconstruction and artificial intelligence algorithms for the detection and tumor depth measurement of basal cell carcinoma in RCM-OCT images: a pilot study"
+  authors: "A Pan, N de Carvalho, L Silva, U Harris, S Dusza, A Sahu, K Kose, ..."
+  venue: "Photonics in Dermatology and Plastic Surgery 2024, Proc. SPIE 12816, 44–49"
+  year: 2024
+- title: "The promise and drawbacks of federated learning for dermatology AI"
+  authors: "K Kose, V Rotemberg"
+  venue: "JAMA Dermatology 160(3), 269–270"
+  year: 2024
+- title: "Expert agreement on the presence and spatial localization of melanocytic features in dermoscopy"
+  authors: "K Liopyris, C Navarrete-Dechent, MA Marchetti, V Rotemberg, Z Apalla, ..."
+  venue: "Journal of Investigative Dermatology 144(3), 531–539.e13"
+  year: 2024
+
+# ---- 2023
+- title: "SmoothHess: ReLU network feature interactions via Stein's lemma"
+  authors: "M Torop, A Masoomi, D Hill, K Kose, S Ioannidis, J Dy"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS) 36, 50697–50729"
+  year: 2023
+- title: "Paradoxical effect of epinephrine on lesion redness and vascularity"
+  authors: "ZH Nazir, A Rishpon, K Kose, NG Marghoob, K Liopyris, ..."
+  venue: "Archives of Dermatological Research 315(7), 2145–2147"
+  year: 2023
+- title: "Improving artificial intelligence-based diagnosis on pediatric skin lesions"
+  authors: "PP Mehta, M Sun, B Betz-Stablein, A Halpern, HP Soyer, J Weber, K Kose, ..."
+  venue: "Journal of Investigative Dermatology 143(8), 1423–1429.e1"
+  year: 2023
+- title: "Quantitative collagen analysis using second harmonic generation images for the detection of basal cell carcinoma with ex vivo multiphoton microscopy"
+  authors: "M Sendín-Martín, J Posner, U Harris, M Moronta, J Conejo-Mir Sánchez, ..."
+  venue: "Experimental Dermatology 32(4), 392–402"
+  year: 2023
+- title: "Self-supervised denoising of Nyquist-sampled volumetric images via deep learning"
+  authors: "MB Applegate, K Kose, S Ghimire, M Rajadhyaksha, J Dy"
+  venue: "Journal of Medical Imaging 10(2), 024005"
+  year: 2023
+- title: "Lentigo maligna melanoma mapping using reflectance confocal microscopy correlates with staged excision: a prospective study"
+  authors: "C Navarrete-Dechent, M Cordova, S Aleissa, K Liopyris, SW Dusza, ..."
+  venue: "Journal of the American Academy of Dermatology 88(2), 371–379"
+  year: 2023
+- title: "Non-invaziv görüntülerde makine öğrenimi ile deri kanseri analizi"
+  authors: "K Kose"
+  venue: "Türkiye Klinikleri Biomedical-Special Topics 4(1), 12–20"
+  year: 2023
+
+# ---- 2022
+- title: "Analyzing the spatial randomness in the distribution of acquired melanocytic neoplasms"
+  authors: "E Chousakos, K Kose, NR Kurtansky, SW Dusza, AC Halpern, AA Marghoob"
+  venue: "Journal of Investigative Dermatology 142(12), 3274–3281"
+  year: 2022
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10475172/
+  selected: true
+- title: "Water-based acrylic marker for reflectance confocal microscopy lesion delineation"
+  authors: "L Hidalgo, K Carrasco, M Córdova, K Kose, F Donoso, A Sahu, A Lavín, ..."
+  venue: "Lasers in Surgery and Medicine 54(9), 1186–1188"
+  year: 2022
+- title: "Tertiary lymphoid structures accompanied by fibrillary matrix morphology impact anti-tumor immunity in basal cell carcinomas"
+  authors: "C Byers, M Gill, NR Kurtansky, C Alessi-Fox, M Harman, M Cordova, ..."
+  venue: "Frontiers in Medicine 9, 981074"
+  year: 2022
+- title: "In vivo tumor immune microenvironment phenotypes correlate with inflammation and vasculature to predict immunotherapy response"
+  authors: "A Sahu, K Kose, L Kraehenbuehl, C Byers, A Holland, T Tembo, ..., M Rajadhyaksha"
+  venue: "Nature Communications 13(1), 5312"
+  year: 2022
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9463451/
+  selected: true
+- title: "Epidermal reconstruction during ex vivo confocal microscopy for detection of superficial basal cell carcinoma with 3D-mosaicking and intensity projection"
+  authors: "K Millar, U Harris, A Bang, M Moronta, MM Sendín, A Rossi, E Lee, ..."
+  venue: "Journal of the American Academy of Dermatology 87(3), AB164"
+  year: 2022
+- title: "Combined PARP1-targeted nuclear contrast and reflectance contrast enhance confocal microscopic detection of basal cell carcinoma"
+  authors: "A Sahu, J Cordero, X Wu, S Kossatz, U Harris, PDD Franca, NR Kurtansky, ..."
+  venue: "Journal of Nuclear Medicine 63(6), 912–918"
+  year: 2022
+- title: "Epidermal reconstruction during ex vivo confocal microscopy for detection of superficial basal cell carcinoma with 3D-mosaicking and intensity projection"
+  authors: "M Moronta, U Harris, M Sendín-Martín, A Bang, A Rossi, E Lee, K Nehal, ..."
+  venue: "Cutaneous Atlas of Ex Vivo Confocal Microscopy (book chapter), 169–175"
+  year: 2022
+- title: "Automated evaluation of lentigo maligna margins using hand-held reflectance confocal microscopy"
+  authors: "A Alfonso, A Aleisa, M Cordova, KS Nehal, M Rajadhyaksha, K Kose"
+  venue: "Microscopy Histopathology and Analytics, MS2A.2"
+  year: 2022
+- title: "Initial testing of machine learning-based imaging of pigmented skin lesions with reflectance confocal microscopy in a clinical setting"
+  authors: "J Kentley, M Cordova, NR Kurtansky, M Jain, V Rotemberg, K Kose, ..."
+  venue: "Photonics in Dermatology and Plastic Surgery 2022, PC119340G"
+  year: 2022
+- title: "Unsupervised representation learning for detecting out of distribution samples in dermoscopy images of eight types of skin lesions"
+  authors: "M Torop, W Liu, DH Brooks, M Rajadhyaksha, JG Dy, O Camps, ..."
+  venue: "Photonics in Dermatology and Plastic Surgery 2022, PC119340H"
+  year: 2022
+- title: "Phenotyping human tumor immune microenvironment (TiME) in vivo in patients to predict response to immunotherapy"
+  authors: "A Sahu, T Tembo, K Kose, A Santella, A Alfonso, M Cordova, M Li, M Gill, ..."
+  venue: "Label-free Biomedical Imaging and Sensing (LBIS) 2022, PC1197207"
+  year: 2022
+- title: "3D mosaicking and intensity projection to reconstruct the entire epidermis during ex vivo confocal microscopy for detection of superficial basal cell carcinoma"
+  authors: "K Millar, U Harris, A Bang, M Moronta, MM Sendín, A Rossi, EH Lee, ..."
+  venue: "Lasers in Surgery and Medicine 54, S34"
+  year: 2022
+- title: "Checklist for evaluation of image-based artificial intelligence reports in dermatology: CLEAR Derm consensus guidelines from the International Skin Imaging Collaboration Artificial Intelligence Working Group"
+  authors: "R Daneshjou, C Barata, B Betz-Stablein, ME Celebi, N Codella, ..., K Kose, ..."
+  venue: "JAMA Dermatology 158(1), 90–96"
+  year: 2022
+- title: "Deep learning for basal cell carcinoma detection for reflectance confocal microscopy"
+  authors: "G Campanella, C Navarrete-Dechent, K Liopyris, J Monnier, S Aleissa, ..."
+  venue: "Journal of Investigative Dermatology 142(1), 97–103"
+  year: 2022
+
+# ---- 2021
+- title: "Patterns of use of reflectance confocal microscopy at a tertiary referral dermatology clinic"
+  authors: "PP Mehta, Y Oh, M Cordova, CS Chen, A Halpern, U Harris, J Kentley, ..."
+  venue: "Journal of the American Academy of Dermatology 87(4), 882"
+  year: 2021
+- title: "Unsupervised approaches for out-of-distribution dermoscopic lesion detection"
+  authors: "M Torop, S Ghimire, W Liu, DH Brooks, O Camps, M Rajadhyaksha, J Dy, ..."
+  venue: "arXiv:2111.04807"
+  year: 2021
+  url: https://arxiv.org/abs/2111.04807
+- title: "Deep learning-based denoising in high-speed portable reflectance confocal microscopy"
+  authors: "J Zhao, M Jain, UG Harris, K Kose, C Curiel-Lewandrowski, D Kang"
+  venue: "Lasers in Surgery and Medicine 53(6), 880–891"
+  year: 2021
+- title: "An international 3-center training and reading study to assess basal cell carcinoma surgical margins with ex vivo fluorescence confocal microscopy"
+  authors: "K Kose, CA Fox, A Rossi, M Jain, M Cordova, SW Dusza, M Ragazzi, ..."
+  venue: "Journal of Cutaneous Pathology 48(8), 1010–1019"
+  year: 2021
+- title: "Dynamic imaging of tumor-immune microenvironment (TiME) and microvasculature identifies 'hot' and 'cold' tumor phenotypes in vivo in patients"
+  authors: "A Sahu, M Gill, M Cordova, A Santella, K Kose, T Tembo, A Alfonso, ..."
+  venue: "Cancer Research 81(13_Supplement), 2814"
+  year: 2021
+- title: "Skin strata delineation in reflectance confocal microscopy images using recurrent convolutional networks with attention"
+  authors: "A Bozkurt, K Kose, J Coll-Font, C Alessi-Fox, DH Brooks, JG Dy, M Rajadhyaksha"
+  venue: "Scientific Reports 11(1), 12576"
+  year: 2021
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8206415/
+  selected: true
+- title: "Phenotyping the human tumor-immune microenvironment (TiME) in vivo by cellular-level optical imaging reveals unique combination phenotypes with variable inflammation and …"
+  authors: "A Sahu, T Tembo, K Kose, A Santella, A Alfonso, M Li, M Cordova, M Gill, ..."
+  venue: "bioRxiv 2021.06.10.447835"
+  year: 2021
+  url: https://doi.org/10.1101/2021.06.10.447835
+- title: "Cellular-level phenotyping of tumor-immune microenvironment (TiME) in patients in vivo reveals distinct inflammation and endothelial anergy signatures"
+  authors: "A Sahu, T Tembo, K Kose, A Santella, A Alfonso, M Li, M Cordova, M Gill, ..."
+  venue: "Preprint"
+  year: 2021
+- title: "Video-based wide area digital dermoscopy"
+  authors: "G Dellatorre, GA Gadens, L Polo Silveira, K Kose, AA Marghoob"
+  venue: "Journal of the American Academy of Dermatology"
+  year: 2021
+- title: "The role of data augmentation on the performance of automated lesion classification in the presence of imaging artifacts: An evaluation of the 2019 ISIC Challenge"
+  authors: "PP Mehta, J Sellitti, J Weber, Y Oh, K Kose, V Rotemberg"
+  venue: "Journal of Investigative Dermatology 141(5), S80"
+  year: 2021
+- title: "Phenotyping tumor-immune microenvironment (TiME) in vivo in patients using reflectance confocal microscopy"
+  authors: "A Sahu, M Gill, M Cordova, A Santella, K Kose, T Tembo, A Alfonso, ..."
+  venue: "Bio-Optics: Design and Application, DTh2A.5"
+  year: 2021
+- title: "Combining PARPi-FL fluorescence and reflectance contrast for improved detection of basal cell carcinoma (BCC)"
+  authors: "A Sahu, J Cordero, X Wu, PDD Franca, S Kossatz, U Harris, N Kurtansky, ..."
+  venue: "Optical Molecular Probes, Imaging and Drug Delivery, OTh2D.4"
+  year: 2021
+- title: "Exploring the utility of Deep Red Anthraquinone 5 for digital staining of ex vivo confocal micrographs of optically sectioned skin"
+  authors: "VK Ortner, A Sahu, M Cordova, K Kose, S Aleissa, C Alessi-Fox, ..."
+  venue: "Journal of Biophotonics 14(4), e202000207"
+  year: 2021
+- title: "Quantitative collagen analysis for the detection of basal cell carcinoma with ex vivo multiphoton microscopy"
+  authors: "M Sendín-Martín, J Posner, U Harris, M Rajadhyaksha, K Kose, M Jain"
+  venue: "Photonics in Dermatology and Plastic Surgery 2021, Proc. SPIE 11618, 41–49"
+  year: 2021
+- title: "Deep learning-based denoising in spectrally-encoded confocal microscopy"
+  authors: "J Zhao, M Jain, U Harris, K Kose, C Curiel-Lewandrowski, D Kang"
+  venue: "Endoscopic Microscopy XVI, Proc. SPIE 11620, 1162004"
+  year: 2021
+- title: "Semantic segmentation of reflectance confocal microscopy mosaics of pigmented lesions using weak labels"
+  authors: "M D'Alonzo, A Bozkurt, C Alessi-Fox, M Gill, DH Brooks, M Rajadhyaksha, ..."
+  venue: "Scientific Reports 11(1), 3679"
+  year: 2021
+- title: "A patient-centric dataset of images and metadata for identifying melanomas using clinical context"
+  authors: "V Rotemberg, N Kurtansky, B Betz-Stablein, L Caffery, E Chousakos, ..., K Kose, ..."
+  venue: "Scientific Data 8(1), 34"
+  year: 2021
+- title: "Segmentation of cellular patterns in confocal images of melanocytic lesions in vivo via a multiscale encoder-decoder network (MED-Net)"
+  authors: "K Kose, A Bozkurt, C Alessi-Fox, M Gill, C Longo, G Pellacani, JG Dy, DH Brooks, M Rajadhyaksha"
+  venue: "Medical Image Analysis 67, 101841"
+  year: 2021
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7885250/
+  selected: true
+
+# ---- 2020
+- title: "Association of multiple aggregated yellow-white globules with nonpigmented basal cell carcinoma"
+  authors: "C Navarrete-Dechent, K Liopyris, A Rishpon, NG Marghoob, M Cordova, ..."
+  venue: "JAMA Dermatology 156(8), 882–890"
+  year: 2020
+- title: "Real-time video mosaicking to guide handheld in vivo microscopy"
+  authors: "C Yin, L Wei, K Kose, AK Glaser, G Peterson, M Rajadhyaksha, JTC Liu"
+  venue: "Journal of Biophotonics 13(6), e202000048"
+  year: 2020
+- title: "Utilizing machine learning for image quality assessment for reflectance confocal microscopy"
+  authors: "K Kose, A Bozkurt, C Alessi-Fox, DH Brooks, JG Dy, M Rajadhyaksha, ..."
+  venue: "Journal of Investigative Dermatology 140(6), 1214–1222"
+  year: 2020
+- title: "Use of paper tape to guide reflectance confocal microscopy navigation of large skin lesions"
+  authors: "C Navarrete-Dechent, M Cordova, S Aleissa, K Kose, EH Lee, AM Rossi, ..."
+  venue: "Journal of the American Academy of Dermatology 82(6), e199–e201"
+  year: 2020
+- title: "Complete visualization of epidermal margin during ex vivo confocal microscopy of excised tissue with 3-dimensional mosaicking and intensity projection"
+  authors: "M Sendín-Martín, K Kose, U Harris, A Rossi, E Lee, K Nehal, ..."
+  venue: "Journal of the American Academy of Dermatology 86(1), e13"
+  year: 2020
+- title: "Detection of the DEJ and segmentation of its morphological patterns in RCM images of melanocytic skin lesions"
+  authors: "K Kose, A Bozkurt, CA Fox, M Gill, D Brooks, J Dy, M Rajadhyaksha"
+  venue: "Microscopy Histopathology and Analytics, MW2A.1"
+  year: 2020
+- title: "Dynamic label-free in vivo imaging of tumor-immune microenvironment (TiME) and microvasculature features in skin cancers with reflectance confocal microscopy (RCM)"
+  authors: "A Sahu, M Gill, C Fox, M Cordova, K Kose, A Santella, K King, S Gonzalez, ..."
+  venue: "Microscopy Histopathology and Analytics, MM4A.4"
+  year: 2020
+
+# ---- 2019
+- title: "Melanoma risk stratification of individuals with a high-risk naevus phenotype – A pilot study"
+  authors: "A Rishpon, C Navarrete-Dechent, AA Marghoob, SW Dusza, G Isman, ..."
+  venue: "Australasian Journal of Dermatology 60(4), e292–e297"
+  year: 2019
+- title: "Artificial intelligence in skin cancer"
+  authors: "O Reiter, V Rotemberg, K Kose, AC Halpern"
+  venue: "Current Dermatology Reports 8(3), 133–140"
+  year: 2019
+- title: "Artifacts and landmarks: pearls and pitfalls for in vivo reflectance confocal microscopy of the skin using the tissue-coupled device"
+  authors: "M Gill, C Alessi-Fox, K Kose"
+  venue: "Dermatology Online Journal 25(8)"
+  year: 2019
+- title: "System, method and computer readable medium for microscopic imaging"
+  authors: "S Abeytunge, M Rajadhyaksha, R Toledo-Crow, K Kose"
+  venue: "US Patent App. 16/373,354"
+  year: 2019
+- title: "Peri-operative delineation of non-melanoma skin cancer margins in vivo with handheld reflectance confocal microscopy and video-mosaicking"
+  authors: "E Flores, O Yélamos, M Cordova, K Kose, W Phillips, EH Lee, A Rossi, ..."
+  venue: "Journal of the European Academy of Dermatology and Venereology 33(6), 1084–1091"
+  year: 2019
+- title: "Machine learning for optical skin microscopy: a tutorial, current advances, and challenges (conference presentation)"
+  authors: "JG Dy, K Kose, A Bozkurt, DH Brooks, M Rajadhyaksha"
+  venue: "Photonics in Dermatology and Plastic Surgery 2019, Proc. SPIE 10851, 1085105"
+  year: 2019
+
+# ---- 2018
+- title: "A multiresolution convolutional neural network with partial label training for annotating reflectance confocal microscopy images of skin"
+  authors: "A Bozkurt, K Kose, C Alessi-Fox, M Gill, J Dy, D Brooks, M Rajadhyaksha"
+  venue: "Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
+  year: 2018
+- title: "A multiresolution deep learning framework for automated annotation of reflectance confocal microscopy images"
+  authors: "K Kose, A Bozkurt, C Alessi-Fox, M Gill, DH Brooks, JG Dy, ..."
+  venue: "Microscopy Histopathology and Analytics, MTh2A.1"
+  year: 2018
+- title: "Investigating the physiological effects of 10.5 Tesla static field exposure on anesthetized swine"
+  authors: "Y Eryaman, P Zhang, L Utecht, K Kose, RL Lagore, L DelaBarre, J Kulesa, ..."
+  venue: "Magnetic Resonance in Medicine 79(1), 511–514"
+  year: 2018
+- title: "Single image structured illumination (SISIM) for in-vivo imaging"
+  authors: "ZR Hoffman, K Kose, CA DiMarzio"
+  venue: "Proc. SPIE 10499"
+  year: 2018
+
+# ---- 2017
+- title: "Delineation of skin strata in reflectance confocal microscopy images using recurrent convolutional networks with Toeplitz attention"
+  authors: "A Bozkurt, K Kose, J Coll-Font, C Alessi-Fox, DH Brooks, JG Dy, ..."
+  venue: "arXiv:1712.00192"
+  year: 2017
+  url: https://arxiv.org/abs/1712.00192
+- title: "Correlation of handheld reflectance confocal microscopy with radial video mosaicing for margin mapping of lentigo maligna and lentigo maligna melanoma"
+  authors: "O Yélamos, M Cordova, N Blank, K Kose, SW Dusza, E Lee, M Rajadhyaksha, KS Nehal, AM Rossi"
+  venue: "JAMA Dermatology 153(12), 1278–1284"
+  year: 2017
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5730495/
+  selected: true
+- title: "Automated video-mosaicking approach for confocal microscopic imaging in vivo: an approach to address challenges in imaging living tissue and extend field of view"
+  authors: "K Kose, M Gou, O Yélamos, M Cordova, AM Rossi, KS Nehal, ES Flores, ..."
+  venue: "Scientific Reports 7(1), 10759"
+  year: 2017
+- title: "Delineation of skin strata in reflectance confocal microscopy images with recurrent convolutional networks"
+  authors: "A Bozkurt, T Gale, K Kose, C Alessi-Fox, DH Brooks, M Rajadhyaksha, ..."
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+  year: 2017
+- title: "Computational methods in skin confocal microscopy"
+  authors: "K Kose, SC Hames"
+  venue: "Reflectance Confocal Microscopy of Cutaneous Tumors (book chapter), 46–56"
+  year: 2017
+- title: "Handheld reflectance confocal microscopy for the detection of recurrent extramammary Paget disease"
+  authors: "O Yélamos, BP Hibler, M Cordova, TJ Hollmann, K Kose, MA Marchetti, ..."
+  venue: "JAMA Dermatology 153(7), 689–693"
+  year: 2017
+- title: "Margin delineation of lentigo maligna using reflectance confocal microscopy videomosaicking and adhesive paper rings"
+  authors: "O Yelamos, M Cordova, N Blank, K Kose, E Lee, M Rajadhyaksha, ..."
+  venue: "Journal of the American Academy of Dermatology 76(6), AB166"
+  year: 2017
+- title: "Unsupervised delineation of stratum corneum using reflectance confocal microscopy and spectral clustering"
+  authors: "A Bozkurt, K Kose, C Alessi-Fox, JG Dy, DH Brooks, M Rajadhyaksha"
+  venue: "Skin Research and Technology 23(2), 176–185"
+  year: 2017
+- title: "In vivo features of melanocytic lesions: multimode hyperspectral dermoscopy, reflectance confocal microscopy, and histopathologic correlates (conference presentation)"
+  authors: "F Vasefi, NB MacKinnon, M Jain, MA Cordova, K Kose, M Rajadhyaksha, ..."
+  venue: "Imaging, Manipulation, and Analysis of Biomolecules, Cells, and Tissues XV (SPIE)"
+  year: 2017
+- title: "Video-mosaicking of in vivo reflectance confocal microscopy images for noninvasive examination of skin lesion (conference presentation)"
+  authors: "K Kose, M Gou, O Yelamos, MA Cordova, A Rossi, KS Nehal, OI Camps, ..."
+  venue: "Photonics in Dermatology and Plastic Surgery, Proc. SPIE 10037"
+  year: 2017
+- title: "Peri-operative imaging of cancer margins with reflectance confocal microscopy during Mohs micrographic surgery: feasibility of a video-mosaicing algorithm"
+  authors: "E Flores, O Yelamos, M Cordova, K Kose, W Phillips, A Rossi, K Nehal, ..."
+  venue: "Proc. SPIE 10037, 100370B"
+  year: 2017
+- title: "Deep learning based classification of morphological patterns in RCM to guide noninvasive diagnosis of melanocytic lesions (conference presentation)"
+  authors: "K Kose, A Bozkurt, S Ariafar, CA Alessi-Fox, M Gill, JG Dy, DH Brooks, ..."
+  venue: "Photonics in Dermatology and Plastic Surgery, Proc. SPIE 10037, 100370C"
+  year: 2017
+
+# ---- 2016
+- title: "A marked Poisson process driven latent shape model for 3D segmentation of reflectance confocal microscopy image stacks of human skin"
+  authors: "S Ghanta, MI Jordan, K Kose, DH Brooks, M Rajadhyaksha, JG Dy"
+  venue: "IEEE Transactions on Image Processing 26(1), 172–184"
+  year: 2016
+- title: "The role of color and morphologic characteristics in dermoscopic diagnosis"
+  authors: "S Bajaj, MA Marchetti, C Navarrete-Dechent, SW Dusza, K Kose, ..."
+  venue: "JAMA Dermatology 152(6), 676–682"
+  year: 2016
+- title: "Abstracts from the 2016 Joint Meeting of the International Confocal Group (ICG), the International Dermoscopy Society (IDS), and the International Society for Digital Imaging of the Skin (ISDIS)"
+  authors: "D Kang, L Rocha, P Guitera, H Sierra, K Kose, G Peterson, ..."
+  venue: "Dermatology Practical & Conceptual 6(2), 57–60"
+  year: 2016
+- title: "An unsupervised machine learning method for delineating stratum corneum in reflectance confocal microscopy stacks of human skin in vivo"
+  authors: "A Bozkurt, K Kose, CA Fox, J Dy, DH Brooks, M Rajadhyaksha"
+  venue: "Photonic Therapeutics and Diagnostics XII, Proc. SPIE 9689, 98–105"
+  year: 2016
+- title: "A machine learning method for identifying morphological patterns in reflectance confocal microscopy mosaics of melanocytic skin lesions in-vivo"
+  authors: "K Kose, C Alessi-Fox, M Gill, JG Dy, DH Brooks, M Rajadhyaksha"
+  venue: "Photonic Therapeutics and Diagnostics XII, Proc. SPIE 9689, 11–18"
+  year: 2016
+
+# ---- 2015
+- title: "Growth-curve modeling of nevi with a peripheral globular pattern"
+  authors: "S Bajaj, SW Dusza, MA Marchetti, X Wu, M Fonseca, K Kose, J Brito, ..."
+  venue: "JAMA Dermatology 151(12), 1338–1345"
+  year: 2015
+- title: "Denoising images corrupted by impulsive noise using projections onto the epigraph set of the total variation function (PES-TV)"
+  authors: "M Tofighi, K Kose, AE Cetin"
+  venue: "Signal, Image and Video Processing 9(Suppl 1), 41–48"
+  year: 2015
+- title: "Phase and TV based convex sets for blind deconvolution of microscopic images"
+  authors: "M Tofighi, O Yorulmaz, K Kose, DC Yıldırım, R Çetin-Atalay, AE Cetin"
+  venue: "IEEE Journal of Selected Topics in Signal Processing 10(1), 81–91"
+  year: 2015
+- title: "Intraoperative imaging during Mohs surgery with reflectance confocal microscopy: initial clinical experience"
+  authors: "ES Flores, M Cordova, K Kose, W Phillips, A Rossi, K Nehal, ..."
+  venue: "Journal of Biomedical Optics 20(6), 061103"
+  year: 2015
+- title: "Automated delineation of dermal–epidermal junction in reflectance confocal microscopy image stacks of human skin"
+  authors: "S Kurugol, K Kose, B Park, JG Dy, DH Brooks, M Rajadhyaksha"
+  venue: "Journal of Investigative Dermatology 135(3), 710–717"
+  year: 2015
+
+# ---- 2014
+- title: "Special issue on microscopic image processing"
+  authors: "K Kose, R Cetin-Atalay, AE Cetin"
+  venue: "Signal, Image and Video Processing 8(Suppl 1), 1–3"
+  year: 2014
+- title: "Video-mosaicing of reflectance confocal images for examination of extended areas of skin in vivo"
+  authors: "K Kose, M Cordova, M Duffy, ES Flores, DH Brooks, M Rajadhyaksha"
+  venue: "British Journal of Dermatology 171(5), 1239–1241"
+  year: 2014
+- title: "Denoising using projections onto the epigraph set of convex cost functions"
+  authors: "M Tofighi, K Kose, AE Cetin"
+  venue: "IEEE International Conference on Image Processing (ICIP), 2709–2713"
+  year: 2014
+- title: "Abstracts from the Joint Meeting of the International Society for Digital Imaging of the Skin (ISDIS), the International Confocal Group (ICG), and the International Dermoscopy Society (IDS)"
+  authors: "K Kose, M Cordova, J Dy, D Brooks, M Rajadhyaksha, A Lallas, Z Apalla, ..."
+  venue: "Dermatology Practical & Conceptual 4(3), 1–6"
+  year: 2014
+- title: "Deconvolution using projections onto the epigraph set of a convex cost function"
+  authors: "M Tofighi, A Bozkurt, K Kose, AE Çetin"
+  venue: "22nd Signal Processing and Communications Applications Conference (SIU)"
+  year: 2014
+- title: "Feasibility of intraoperative imaging during Mohs surgery with reflectance confocal microscopy"
+  authors: "ES Flores, M Cordova, K Kose, W Phillips, K Nehal, M Rajadhyaksha"
+  venue: "Photonic Therapeutics and Diagnostics X, Proc. SPIE 8926, 54–65"
+  year: 2014
+- title: "Signal reconstruction framework based on projections onto epigraph set of a convex cost function (PESC)"
+  authors: "M Tofighi, K Kose, AE Cetin"
+  venue: "arXiv:1402.2088"
+  year: 2014
+  url: https://arxiv.org/abs/1402.2088
+- title: "Deconstructing skin: RCM and FCM interpretation with quantitative image analysis tools"
+  authors: "K Kose, M Cordova, J Dy, DH Brooks, M Rajadhyaksha"
+  venue: "Dermatology Practical & Conceptual 4(3), 23"
+  year: 2014
+- title: "Compressive sensing using the modified entropy functional"
+  authors: "K Kose, O Gunay, AE Cetin"
+  venue: "Digital Signal Processing 24, 63–70"
+  year: 2014
+- title: "Image feature extraction using compressive sensing"
+  authors: "A Eleyan, K Kose, AE Cetin"
+  venue: "Image Processing and Communications Challenges 5, 177–184"
+  year: 2014
+
+# ---- 2013
+- title: "Denoising using projection onto convex sets (POCS) based framework"
+  authors: "M Tofighi, K Kose, AE Cetin"
+  venue: "arXiv:1309.0700"
+  year: 2013
+  url: https://arxiv.org/abs/1309.0700
+- title: "Projections onto convex sets (POCS) based optimization by lifting"
+  authors: "AE Cetin, A Bozkurt, O Gunay, YH Habiboglu, K Kose, I Onaran, ..."
+  venue: "arXiv:1306.2516"
+  year: 2013
+  url: https://arxiv.org/abs/1306.2516
+- title: "Video-based flame detection for the protection of cultural heritage"
+  authors: "K Dimitropoulos, O Gunay, K Kose, F Erden, F Chaabane, F Tsalakanidou, ..."
+  venue: "International Journal of Heritage in the Digital Era 2(1), 23–47"
+  year: 2013
+- title: "Automated localization of wrinkles and the dermo-epidermal junction in obliquely oriented reflectance confocal microscopic images of human skin"
+  authors: "J Sourati, K Kose, M Rajadhyaksha, JG Dy, D Erdogmus, DH Brooks"
+  venue: "Photonic Therapeutics and Diagnostics IX, Proc. SPIE 8565, 34–42"
+  year: 2013
+- title: "Image classification of human carcinoma cells using complex wavelet-based covariance descriptors"
+  authors: "F Keskin, A Suhre, K Kose, T Ersahin, AE Cetin, R Cetin-Atalay"
+  venue: "PLoS ONE 8(1), e52807"
+  year: 2013
+
+# ---- 2012
+- title: "Flame detection for video-based early fire warning for the protection of cultural heritage"
+  authors: "K Dimitropoulos, O Gunay, K Kose, F Erden, F Chaabene, F Tsalakanidou, ..."
+  venue: "Euro-Mediterranean Conference (EUROMED), 378–387"
+  year: 2012
+- title: "Wavelet based flickering flame detector using differential PIR sensors"
+  authors: "F Erden, BU Toreyin, EB Soyer, I Inac, O Gunay, K Kose, AE Cetin"
+  venue: "Fire Safety Journal 53, 13–18"
+  year: 2012
+- title: "Entropy minimization based robust algorithm for adaptive networks"
+  authors: "K Kose, AE Cetin, O Gunay"
+  venue: "20th Signal Processing and Communications Applications Conference (SIU)"
+  year: 2012
+- title: "Wavelet based flame detection using differential PIR sensors"
+  authors: "F Erden, BU Töreyin, EB Soyer, I Inac, O Günay, K Kose, AE Çetin"
+  venue: "20th Signal Processing and Communications Applications Conference (SIU)"
+  year: 2012
+- title: "Entropy functional based adaptive decision fusion framework"
+  authors: "O Günay, BU Töreyin, K Kose, AE Çetin"
+  venue: "20th Signal Processing and Communications Applications Conference (SIU)"
+  year: 2012
+- title: "Filtered variation method for denoising and sparse signal processing"
+  authors: "K Kose, V Cevher, AE Cetin"
+  venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  year: 2012
+- title: "Entropy-functional-based online adaptive decision fusion framework with application to wildfire detection in video"
+  authors: "O Gunay, BU Toreyin, K Kose, AE Cetin"
+  venue: "IEEE Transactions on Image Processing 21(5), 2853–2865"
+  year: 2012
+- title: "Signal and image processing algorithms using interval convex programming and sparsity"
+  authors: "K Kose"
+  venue: "Ph.D. thesis, Bilkent University"
+  year: 2012
+
+# ---- 2011
+- title: "A multi-sensor network for the protection of cultural heritage"
+  authors: "N Grammalidis, E Çetin, K Dimitropoulos, F Tsalakanidou, K Kose, ..."
+  venue: "19th European Signal Processing Conference (EUSIPCO), 889–893"
+  year: 2011
+- title: "Low-pass filtering of irregularly sampled signals using a set theoretic framework [lecture notes]"
+  authors: "K Kose, AE Cetin"
+  venue: "IEEE Signal Processing Magazine 28(4), 117–121"
+  year: 2011
+- title: "Fractional wavelet transform using an unbalanced lifting structure"
+  authors: "YH Habiboğlu, K Kose, AE Cetin"
+  venue: "Proc. SPIE 8058, Independent Component Analyses, Wavelets, Neural Networks, Biosystems, and Nanoengineering IX"
+  year: 2011
+- title: "Content-adaptive color transform for image compression"
+  authors: "A Suhre, K Kose, AE Cetin, MN Gurcan"
+  venue: "Optical Engineering 50(5), 057003"
+  year: 2011
+- title: "New face representation using compressive sensing"
+  authors: "A Eleyan, K Kose, AE Çetin"
+  venue: "19th Signal Processing and Communications Applications Conference (SIU)"
+  year: 2011
+- title: "Compressive sensing using the entropy functional"
+  authors: "K Kose, O Gunay, AE Cetin"
+  venue: "arXiv:1101.5079"
+  year: 2011
+  url: https://arxiv.org/abs/1101.5079
+- title: "Online adaptive decision fusion framework based on entropic projections onto convex sets with application to wildfire detection in video"
+  authors: "O Gunay, BU Toreyin, K Kose, AE Cetin"
+  venue: "arXiv:1101.4749"
+  year: 2011
+  url: https://arxiv.org/abs/1101.4749
+
+# ---- 2010
+- title: "Image compression using a histogram-based color transform"
+  authors: "A Suhre, K Kose, AE Çetin"
+  venue: "18th Signal Processing and Communications Applications Conference (SIU)"
+  year: 2010
+- title: "FireSense: fire detection and management through a multi-sensor network for protection of cultural heritage areas from the risk of fire and extreme weather conditions"
+  authors: "K Kose, F Tsalakanidou, H Besbes, F Tlili, B Governeur, E Pauwels"
+  venue: "Proceedings of the 7th Framework Programme for Research and Technological Development"
+  year: 2010
+- title: "Fire detection and 3-D fire propagation estimation for the protection of cultural heritage areas"
+  authors: "E Cetin, ..."
+  venue: "ISPRS Technical Commission VIII Symposium"
+  year: 2010
+- title: "3D model compression using connectivity-guided adaptive wavelet transform built into 2D SPIHT"
+  authors: "K Kose, AE Çetin, U Güdükbay, L Onural"
+  venue: "Journal of Visual Communication and Image Representation 21(1), 17–28"
+  year: 2010
+
+# ---- 2009
+- title: "Progressive compression of digital elevation data using meshes"
+  authors: "K Kose, E Yilmaz, AE Cetin"
+  venue: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS), IV-502–IV-505"
+  year: 2009
+- title: "Motion based clustering of model animations using PCA"
+  authors: "K Kose, AE Cetin"
+  venue: "IEEE"
+  year: 2009
+
+# ---- 2008
+- title: "3D forest fire propagation simulation"
+  authors: "K Kose, N Grammalidis, E Yilmaz, E Cetin"
+  venue: "3DTV Conference: The True Vision – Capture, Transmission and Display of 3D Video"
+  year: 2008
+- title: "3D forest-fire spread simulation system"
+  authors: "K Kose, E Yilmaz, N Grammalidis, B Aktug, AE Cetin, I Aydin"
+  venue: "16th Signal Processing, Communication and Applications Conference (SIU)"
+  year: 2008
+- title: "3D wildfire simulation system"
+  authors: "K Kose, N Grammalidis, EE Yılmaz, E Cetin"
+  venue: "International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences"
+  year: 2008
+
+# ---- 2007
+- title: "3D model compression using connectivity-guided adaptive lifting transform"
+  authors: "K Kose, AE Cetin, U Gudukbay, L Onural"
+  venue: "15th Signal Processing and Communications Applications Conference (SIU)"
+  year: 2007
+- title: "Connectivity-guided adaptive lifting transform for image like compression of meshes"
+  authors: "K Kose, AE Cetin, U Gudukbay, L Onural"
+  venue: "3DTV Conference"
+  year: 2007
+- title: "3D model compression using image compression based methods"
+  authors: "K Kose"
+  venue: "M.Sc. thesis, Bilkent University"
+  year: 2007
+
+# ---- 2006
+- title: "Nonrectangular wavelets for multiresolution mesh analysis and compression"
+  authors: "K Kose, AE Cetin, U Güdükbay, L Onural"
+  venue: "Proc. SPIE 6247, Independent Component Analyses, Wavelets, Unsupervised Smart Sensors, and Neural Networks IV, 624704"
+  year: 2006
+- title: "Nonrectangular wavelets for multiresolution mesh analysis and compression"
+  authors: "K Kose, AE Cetin, U Gudukbay, L Onural"
+  venue: "14th Signal Processing and Communications Applications Conference (SIU)"
+  year: 2006
+
+# ---- undated
+- title: "Lesion size matters: A validation dataset for melanoma detection"
+  authors: "EA Cowen, P Mehta, NR Kurtansky, E Duhaime, P Guitera, Q Ha, ..."
+  venue: "Preprint"
+- title: "Investigating the effects of 10.5 T static field exposure on blood pressure and heart rate in anesthetized pigs"
+  authors: "Y Eryaman, P Zhang, L Utecht, RL Lagore, J Kulesa, L DelaBarre, K Kose, ..."
+  venue: "Abstract"
+- title: "Image denoising using filtered variation"
+  authors: "K Kose, V Cevher, AE Cetin"
+  venue: "Preprint"

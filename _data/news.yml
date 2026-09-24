@@ -1,0 +1,15 @@
+# Newest first. `text` is Markdown. The home page shows the first 5.
+- date: Nov 2025
+  text: "Our paper on [automated triage of cancer-suspicious skin lesions with 3D total-body photography](https://pmc.ncbi.nlm.nih.gov/articles/PMC12639164/) is out in *npj Digital Medicine*."
+- date: Oct 2024
+  text: "Invited talk on the ISIC 2024 Skin Cancer Detection with 3D-TBP challenge at the ISIC Workshop, MICCAI 2024, Morocco."
+- date: Aug 2024
+  text: "The [SLICE-3D dataset](https://pmc.ncbi.nlm.nih.gov/articles/PMC11324883/) — 400,000 skin lesion crops from 3D total-body photography — is published in *Scientific Data*."
+- date: 2024
+  text: "Appointed Assistant Lab Member (Assistant Professor) in the Dermatology Service at MSK."
+- date: Dec 2023
+  text: "SmoothHess: ReLU network feature interactions via Stein's lemma, with Max Torop and Jennifer Dy, presented at NeurIPS 2023."
+- date: Oct 2023
+  text: "Invited talk \"Expanding ISIC beyond Dermoscopy: M(ultimodal)-ISIC\" at MICCAI 2023, Canada."
+- date: 2023
+  text: "Joined Columbia University as Adjunct Assistant Professor."

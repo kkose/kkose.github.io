@@ -1,0 +1,3 @@
+{% assign p = include.p %}<li>{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}<br>
+<span class="authors">{{ p.authors | replace: "K Kose", "<strong>K Kose</strong>" }}</span><br>
+<span class="venue"><em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}</span></li>
