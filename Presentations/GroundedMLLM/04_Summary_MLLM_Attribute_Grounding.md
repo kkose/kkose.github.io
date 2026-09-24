@@ -1,6 +1,10 @@
-# Grounding Multimodal LLMs with Quantitative Skin Attributes: A Retrieval Study
+---
+title: "Grounding Multimodal LLMs with Quantitative Skin Attributes: A Retrieval Study"
+math: true
+---
+<p class="meta">Torop, Eskandar, Kurtansky, Liu, Weber, Camps, Rotemberg, Dy, Kose · Northeastern University &amp; Memorial Sloan Kettering Cancer Center</p>
 
-Torop, Eskandar, Kurtansky, Liu, Weber, Camps, Rotemberg, Dy, Kose · Northeastern University & Memorial Sloan Kettering Cancer Center
+<p class="note"><a href="VLM%20Explainer.html">View the interactive presentation →</a> · <a href="{{ '/presentations/' | relative_url }}">All presentations</a></p>
 
 ## Clinical motivation
 
@@ -39,13 +43,13 @@ Quantitative lesion attributes from 3D total-body photography (TBP) are interpre
 
 **Embeddings (see figure).**
 
-- **Image-only**, $h^{(im)}(I)$: the mean of the image-token states at layer L−1. This is the last layer where image tokens feed directly into prediction, and it captures general appearance.
-- **Attribute-conditioned**, $h^{(im,a)}(I)=f_{-1}([g(I),\psi(Q(a))])$: the last token's final-layer state after the image and question. This is a composed image+text query.
-- **Multi-attribute**: a single prompt that asks for C attributes gives $h^{(im,a_1..a_C)}$, with no multi-attribute training.
+- **Image-only**, $$h^{(im)}(I)$$: the mean of the image-token states at layer L−1. This is the last layer where image tokens feed directly into prediction, and it captures general appearance.
+- **Attribute-conditioned**, $$h^{(im,a)}(I)=f_{-1}([g(I),\psi(Q(a))])$$: the last token's final-layer state after the image and question. This is a composed image+text query.
+- **Multi-attribute**: a single prompt that asks for C attributes gives $$h^{(im,a_1..a_C)}$$, with no multi-attribute training.
 
 **Retrieval.** The system returns the top-k images by cosine similarity, with the training set as the database. Storing embeddings for every attribute combination is combinatorial, so **hierarchical retrieval** is used:
 
-1. Take the top *b* = 200 images by $h^{(im)}$.
+1. Take the top *b* = 200 images by $$h^{(im)}$$.
 2. Compute attribute-conditioned embeddings on the fly for those 200 only.
 3. Return the top *k*.
 

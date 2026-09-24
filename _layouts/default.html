@@ -6,6 +6,7 @@
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
   <link rel="icon" href="{{ '/favicon.png' | relative_url }}">
+  {% if page.math %}<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>{% endif %}
   {% if site.goatcounter %}<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>{% endif %}
 </head>
 <body>
