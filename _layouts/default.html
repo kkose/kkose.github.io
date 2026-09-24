@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/favicon.png' | relative_url }}">
+  {% if site.goatcounter %}<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>{% endif %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav>
+        {% for item in site.nav %}<a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav>{% for l in site.links %}<a href="{{ l.url }}">{{ l.title }}</a>{% endfor %}</nav>
+      <p>&copy; {{ site.time | date: "%Y" }} Kivanc Kose</p>
+    </div>
+  </footer>
+</body>
+</html>
