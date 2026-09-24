@@ -1,6 +1,10 @@
-# CD-RCM: Generalizable Continuous-Depth Novel View Synthesis for Reflectance Confocal Microscopy
+---
+title: "CD-RCM: Generalizable Continuous-Depth Novel View Synthesis for Reflectance Confocal Microscopy"
+math: true
+---
+<p class="meta">Imtiaz, Rajadhyaksha, Kose*, Dy* · Northeastern University &amp; Memorial Sloan Kettering Cancer Center (*equal contribution)</p>
 
-Imtiaz, Rajadhyaksha, Kose\*, Dy\* · Northeastern University & Memorial Sloan Kettering Cancer Center (\*equal contribution)
+<p class="note"><a href="CD-RCM%20Explainer.html">View the interactive presentation →</a> · <a href="{{ '/presentations/' | relative_url }}">All presentations</a></p>
 
 ## Clinical motivation
 
@@ -25,17 +29,17 @@ RCM images *internal* tissue by axial sectioning, with almost no viewpoint chang
 
 **Virtual camera.**
 
-- Slice *i* is modeled as a pinhole camera under pure z-translation: $c_i=[0,0,z_i]^T$, $z_i=i\Delta_z$, with identity rotation. Camera-to-world is $T_{c2w}=[I_3,\,-c_i;\,0^T,1]$.
-- **Stack canonicalization:** $c_i\leftarrow(c_i-\bar c)/c_\infty$.
-- **Intrinsics:** $f_x=f_y=\alpha H$, $u_0=v_0=H/2$.
-- Pixel-wise **Plücker ray** embeddings $P_i\in\mathbb R^{H\times W\times 6}$ encode depth.
+- Slice *i* is modeled as a pinhole camera under pure z-translation: $$c_i=[0,0,z_i]^T$$, $$z_i=i\Delta_z$$, with identity rotation. Camera-to-world is $$T_{c2w}=[I_3,\,-c_i;\,0^T,1]$$.
+- **Stack canonicalization:** $$c_i\leftarrow(c_i-\bar c)/c_\infty$$.
+- **Intrinsics:** $$f_x=f_y=\alpha H$$, $$u_0=v_0=H/2$$.
+- Pixel-wise **Plücker ray** embeddings $$P_i\in\mathbb R^{H\times W\times 6}$$ encode depth.
 
 **Architecture (LVSM-inspired, see figure).**
 
 1. Input slices and their rays are split into 8×8 patches, concatenated channel-wise, and projected to d = 768 tokens.
 2. Target depths enter as **ray-only** tokens.
 3. The combined sequence passes through **24 bidirectional self-attention + MLP blocks** (QK-norm, no causal mask).
-4. Only the updated target tokens are decoded, via Linear → sigmoid → unpatchify, into $\hat I_t$.
+4. Only the updated target tokens are decoded, via Linear → sigmoid → unpatchify, into $$\hat I_t$$.
 
 The model has 170.8M parameters and is trained from scratch.
 
@@ -50,7 +54,7 @@ The model has 170.8M parameters and is trained from scratch.
 
 $$\mathcal L=\mathcal L_{MSE}+\lambda\,\mathcal L_{LPIPS}+\gamma\,\mathcal L_{SPF},\qquad \mathcal L_{SPF}=\tfrac1T\|\phi_s(\hat I_t)-\phi_s(I_t)\|_1$$
 
-Here λ = 0.5 and γ = 0.05. $\mathcal L_{SPF}$ uses final-layer features.
+Here λ = 0.5 and γ = 0.05. $$\mathcal L_{SPF}$$ uses final-layer features.
 
 **Training and inference.**
 

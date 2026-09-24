@@ -4,6 +4,8 @@ permalink: /research/
 ---
 I develop machine learning and computer vision methods that make noninvasive imaging practical in the clinic. The common thread is translation: building tools that standardize image acquisition, support real-time decisions and hold up in prospective clinical evaluation, not only on retrospective benchmarks. My work spans the Optical Imaging Lab and the Dermatology Imaging Informatics Lab in the MSK Dermatology Service, in close collaboration with clinicians and with engineering groups at Northeastern University.
 
+Short presentations that walk through selected projects are collected on the [Presentations]({{ '/presentations/' | relative_url }}) page.
+
 ## Reflectance confocal microscopy and videomosaicking
 
 Reflectance confocal microscopy (RCM) images skin at cellular resolution without a biopsy, but its adoption has been limited by variable image acquisition, a small field of view and the need for expert readers. I have developed algorithms that identify skin layers, segment cellular patterns associated with malignancy and classify lesions with supervised and weakly supervised learning. Two of my segmentation methods are integrated into a research RCM device at MSK for prospective testing, and our mosaicking and digital staining work is part of the current device software.
@@ -27,13 +29,6 @@ Clinical AI has to be reliable, not only accurate. With Jennifer Dy's group at N
 ## Oral and head-and-neck cancer imaging
 
 I apply these methods beyond the skin: AI-assisted RCM for intraoperative margin assessment in oral squamous cell carcinoma, in vivo detection of oral lesions in outpatient clinics in India, and smartphone-based oral lesion screening for low-resource settings.
-
-## Research presentations
-
-<ul class="dated">
-<li><span class="when">2026</span><span><strong><a href="/Presentations/CDRCM/CD-RCM%20Explainer.html">CD-RCM: Generalizable Continuous-Depth Novel View Synthesis for Reflectance Confocal Microscopy</a></strong><br><span class="meta">Imtiaz, Rajadhyaksha, Kose, Dy · <a href="/Presentations/CDRCM/05_Summary_CD-RCM.md">summary</a></span></span></li>
-<li><span class="when">2026</span><span><strong><a href="/Presentations/GroundedMLLM/VLM%20Explainer.html">Grounding Multimodal LLMs with Quantitative Skin Attributes: A Retrieval Study</a></strong><br><span class="meta">Torop, Eskandar, Kurtansky, Liu, Weber, Camps, Rotemberg, Dy, Kose · <a href="/Presentations/GroundedMLLM/04_Summary_MLLM_Attribute_Grounding.md">summary</a></span></span></li>
-</ul>
 
 ## Research funding
 
