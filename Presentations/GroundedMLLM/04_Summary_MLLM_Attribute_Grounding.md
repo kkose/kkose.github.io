@@ -6,100 +6,31 @@ math: true
 
 <p class="note"><a href="VLM%20Explainer.html">View the interactive presentation →</a> · <a href="{{ '/presentations/' | relative_url }}">All presentations</a></p>
 
-## Clinical motivation
+**Background.** AI models for skin cancer detection reach dermatologist-level accuracy but give little insight into why they reach a decision. Some classifiers have been shown to rely on surgical markings, rulers, or hair rather than the lesion itself. Quantitative lesion attributes measured from 3D total-body photography (TBP) are both interpretable and predictive of malignancy; examples include size, border irregularity, and lesion-to-skin contrast. Multimodal large language models (MLLMs) offer a natural-language interface for clinicians but are known to struggle with quantities. We asked whether an MLLM can be grounded in these attributes and then used for image search that can be steered by attribute.
 
-Skin-cancer classifiers reach dermatologist-level accuracy but remain black boxes. They can exploit spurious cues such as surgical markings, rulers, and hair. Saliency maps are an unreliable fix.
+**Methods.** We fine-tuned Qwen2-VL on the SLICE-3D dataset from the ISIC 2024 challenge: 401,059 lesion tiles, each 15 mm across, cropped from 3D TBP scans of 1,042 patients at seven hospitals. Sixteen attributes were selected with dermatology experts, covering size, border shape, color variation, color asymmetry, and color and contrast inside and outside the lesion. For every image and attribute, the model was asked a question such as "What is the area in mm²?" and trained to answer with the measured value. Fine-tuning used low-rank adaptation (LoRA, rank 8) on both the vision encoder and the language decoder, for one epoch on four GPUs.
 
-Quantitative lesion attributes from 3D total-body photography (TBP) are interpretable and predictive of malignancy. Examples include size, border irregularity, and lesion–skin contrast. Multimodal LLMs offer a natural-language interface for clinicians, but they are known to struggle with quantification.
+From the tuned model we derived two embeddings:
 
-**Goal:** ground an MLLM's representation in these attributes, and use it for attribute-steerable image retrieval.
+- **Image-only embedding:** the average of the image-token states in the second-to-last decoder layer. It captures general lesion appearance.
+- **Attribute-conditioned embedding:** the final-layer state of the last token, after the model has read both the image and an attribute question. Asking about several attributes in one prompt yields a multi-attribute embedding, without any multi-attribute training.
 
-## Data
+Retrieval returns the most similar images by cosine similarity. Storing an embedding for every attribute combination is impractical, so a two-stage search first shortlists 200 candidates with the image-only embedding. It then re-ranks those candidates with the attribute-conditioned embedding.
 
-- **Dataset:** SLICE-3D (ISIC 2024), consisting of 15 mm lesion tiles cropped from 3D TBP.
-- **Train:** 401,059 images from 1,042 patients at 7 hospitals.
-- **Test:** 511,474 private images from 1,277 patients at 9 sites. Two sites, FNQH Cairns and Monash, are out-of-distribution.
-- **Attributes:** 16, chosen with domain experts:
-  - Size: area, minor axis, perimeter, long diameter
-  - Border: area/perimeter ratio, border irregularity
-  - Color: color variation, radial color asymmetry
-  - LAB values inside and outside the lesion: A, Aext, B, Bext, stdLExt
-  - Contrast: ΔL, ΔB, ΔLB
-- **Missing values:** a value of 0 means missing and is excluded.
+Evaluation used the private test set of 511,474 images from 1,277 patients at nine sites. Two of those sites, Cairns and Monash in Australia, were never seen in training. We compared against the untuned Qwen2-VL and two dermatology foundation models, MONET and PanDerm.
 
-## Method
+**Results.**
 
-**Model.** Qwen2-VL, with ViT encoder *g*, text-token embedding ψ, and causal decoder *f* (L layers).
+- **Attribute prediction:** predicted values agreed closely with measured ones, with mean R² of 0.90. R² ranged from 0.79 for border jaggedness to 0.97 for lesion-to-skin contrast, and reached 0.87 and 0.90 at the two unseen sites.
+- **Retrieval by attribute:** attribute-conditioned embeddings found the closest matches for all 16 attributes. The metric ranks how close each retrieved lesion is to the query compared with every lesion in the database (lower is better). For lesion area, the typical retrieved lesion ranked at the 8th percentile, versus the 33rd for PanDerm and the 36th for MONET.
+- **Search variants:** the two-stage search performed almost identically to searching the full database. Even the image-only embedding outperformed all baselines, and prompting on pairs of attributes outperformed all baselines as well.
+- **Diagnostic signal:** the model never saw a diagnosis during training. Even so, a logistic-regression classifier on its image-only embeddings separated malignant from benign lesions (480 malignant among 511,474 test images). It reached an AUROC of 0.928 (95% CI 0.916 to 0.939) and a partial AUC above 80% sensitivity of 0.143. PanDerm reached 0.909 and 0.131, and the confidence intervals overlap slightly.
+- **Dermoscopy:** on dermoscopy images, a modality never used in training, retrieved lesions remained qualitatively similar in border irregularity and color asymmetry.
 
-**Training.** Each (image, attribute) pair becomes one visual-question-answering example, (I, Q(a), y_a(I)). The model maximizes the log-likelihood of the numeric answer given the image and the question.
-
-| Setting | Value |
-|---|---|
-| Fine-tuning | LoRA (rank 8), encoder and decoder jointly |
-| Epochs | 1 |
-| Batch size | 16 |
-| Learning rate | cosine schedule from 1e-4 |
-| Hardware | 4× A6000 |
-
-**Embeddings (see figure).**
-
-- **Image-only**, $$h^{(im)}(I)$$: the mean of the image-token states at layer L−1. This is the last layer where image tokens feed directly into prediction, and it captures general appearance.
-- **Attribute-conditioned**, $$h^{(im,a)}(I)=f_{-1}([g(I),\psi(Q(a))])$$: the last token's final-layer state after the image and question. This is a composed image+text query.
-- **Multi-attribute**: a single prompt that asks for C attributes gives $$h^{(im,a_1..a_C)}$$, with no multi-attribute training.
-
-**Retrieval.** The system returns the top-k images by cosine similarity, with the training set as the database. Storing embeddings for every attribute combination is combinatorial, so **hierarchical retrieval** is used:
-
-1. Take the top *b* = 200 images by $$h^{(im)}$$.
-2. Compute attribute-conditioned embeddings on the fly for those 200 only.
-3. Return the top *k*.
-
-## Results
-
-**Attribute prediction.** Mean test **R² = 0.90**. The range runs from 0.79 (area/perimeter ratio) to 0.97 (ΔB, ΔL, ΔLB). Per-site means are 0.87–0.91, including **0.87 / 0.90** at the two unseen sites. The answer logits are computed from the same final-token embedding, so this directly shows that the embedding encodes the attributes.
-
-**Retrieval.** For each top-5 result, the metric is the percentile rank of the squared query–result attribute difference among differences to all database images (lower is better). The table shows the median.
-
-| Attribute | Im+Text | Hier. | Im. | Untuned | MONET | PanDerm |
-|---|---|---|---|---|---|---|
-| Area | **8.4** | 8.5 | 15.4 | 41.0 | 35.7 | 33.1 |
-| Border irregularity | **16.9** | 17.0 | 21.2 | 36.0 | 33.9 | 32.7 |
-| ΔLB | **6.3** | 6.5 | 11.2 | 28.8 | 22.2 | 21.5 |
-
-The ordering is the same across all 16 attributes: Im+Text < Hier. < Im. < PanDerm/MONET < untuned. The hierarchical search is nearly lossless. On four attribute pairs, joint prompting dominates all baselines and trades off against single-attribute prompts.
-
-**Diagnostic signal.** A logistic-regression probe was trained on the image-only embeddings:
-
-- **Regularization:** L2, tuned by pAUC above TPR 0.80.
-- **Validation:** 118,495 images (170 malignant).
-- **Probe training:** 282,564 images (223 malignant).
-- **Leakage control:** a separately fine-tuned model was used for hyperparameter selection.
-- **Test:** 510,994 benign / 480 malignant.
-
-| Metric | Ours | Untuned | MONET | PanDerm |
-|---|---|---|---|---|
-| AUROC (95% CI) | **0.928** (0.916–0.939) | 0.881 | 0.890 | 0.909 (0.894–0.922) |
-| pAUC | **0.143** | 0.112 | 0.122 | 0.131 |
-
-This is achieved with **no malignancy supervision**.
-
-**Modality transfer.** On ISIC Archive dermoscopy, top-5 retrieval was compared against MONET, PanDerm, and ADAE. It *qualitatively* preserves scale-invariant features such as border irregularity and color asymmetry. Absolute mm predictions are ill-posed without magnification information.
-
-## Clinical takeaways and limitations
-
-Attribute supervision makes the embedding **interpretable and queryable**: *"lesions like this one, matched on diameter and contrast."* It does this without sacrificing diagnostic information.
-
-Limitations:
-
-- No clinician reader study.
-- No skin-type stratification.
-- Dermoscopy results are qualitative only.
-- The AUROC confidence intervals overlap with PanDerm.
-- Retrieval latency is not reported.
-
-Future work: conversational reasoning, and validation across populations and devices.
+**Conclusions.** Supervising an MLLM with clinically meaningful measurements yields a representation that is interpretable, searchable by the features clinicians already use, and still diagnostically informative. Current limitations are the lack of a clinician reader study, no stratification by skin type, qualitative-only dermoscopy results, and unreported search speed. Future work will extend the framework toward conversational reasoning and validate it across populations, imaging devices, and acquisition settings.
 
 ---
 
 ![Image-only vs attribute-conditioned embeddings](fig_mllm_embeddings.png)
 
-*Figure (from the paper, Fig. 1).* The image-only embedding averages the penultimate-layer image tokens. The area-conditioned embedding is the final-layer state of the last token after the question "What is the area in mm²?"
+*Figure (paper, Fig. 1).* The image-only embedding averages the image-token states from the second-to-last decoder layer. The area-conditioned embedding is the last token's final-layer state after the model reads the image and the question "What is the area in mm²?"
