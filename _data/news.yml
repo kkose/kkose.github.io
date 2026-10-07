@@ -1,4 +1,6 @@
 # Newest first. `text` is Markdown. The home page shows the first 5.
+- date: Oct 2026
+  text: "Three papers from our group accepted at NeurIPS 2026 — CD-RCM (main conference), SCC (Med-Reasoner workshop), and attribute-grounded MLLM retrieval (VLM4RWD workshop). [Read the summaries](/neurips2026/)."
 - date: Nov 2025
   text: "Our paper on [automated triage of cancer-suspicious skin lesions with 3D total-body photography](https://pmc.ncbi.nlm.nih.gov/articles/PMC12639164/) is out in *npj Digital Medicine*."
 - date: Oct 2024
