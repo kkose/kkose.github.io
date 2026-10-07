@@ -38,16 +38,15 @@ A model's confidence shapes whether a clinician trusts or overrides it. Standard
 
 Semantically Coherent Calibration (SCC) jointly optimizes both. A learned soft grouping function partitions a VLM's multimodal embedding space so that samples in each group share both a calibration need and a semantic neighborhood, and each group gets its own Platt or temperature scaling parameters. The result is a set of groups a practitioner can inspect: on ISIC 2024, for example, the group requiring the largest downward correction skews older and 75% male — a concrete, testable hypothesis about where the model's training data may be thin.
 
-<div class="fig2">
-  <figure>
-    <img src="{{ '/images/neurips2026/scc-concept.png' | relative_url }}" alt="Illustration of group discovery along calibration-need and semantic axes" loading="lazy">
-    <figcaption>Group discovery along two axes: calibration need (color) and semantic category (shape). Prior methods optimize one axis; SCC finds groups homogeneous in both.</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ '/images/neurips2026/scc-groups.png' | relative_url }}" alt="Representative images from the four groups SCC discovers on ISIC 2024" loading="lazy">
-    <figcaption>Representative images from the four groups SCC discovers on ISIC 2024, annotated by risk level and shared characteristics.</figcaption>
-  </figure>
-</div>
+<figure>
+  <img src="{{ '/images/neurips2026/scc-concept.png' | relative_url }}" alt="Illustration of group discovery along calibration-need and semantic axes" loading="lazy">
+  <figcaption>Group discovery along two independent axes: calibration need (color) and semantic category (shape). (a) Grouping solely on calibration need mixes distinct semantic categories together. (b) Grouping solely on semantic similarity produces semantically coherent groups that still mix well- and poorly-calibrated samples, leaving calibration need unaddressed within each group. (c) SCC jointly optimizes both objectives, discovering groups that are homogeneous in calibration need and semantic category, with interpretable descriptions (e.g., “Mostly male, older, lower extremity”).</figcaption>
+</figure>
+
+<figure>
+  <img src="{{ '/images/neurips2026/scc-groups.png' | relative_url }}" alt="Representative images from the four groups SCC discovers on ISIC 2024" loading="lazy">
+  <figcaption>Representative images from the four groups SCC discovers on ISIC 2024, annotated by risk level and shared characteristics (a), compared with the groups found by the GC+TS baseline (b).</figcaption>
+</figure>
 
 - Evaluated on four VLMs (Qwen2-VL 2B/7B, LLaVA-1.5 7B/13B) across four dermatology datasets (ISIC 2020, ISIC 2024, MIDAS, MILK)
 - Statistically significant ECE improvements in 11 of 16 settings, with up to 79% reduction over competitive baselines

@@ -78,6 +78,3 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 figure { margin: 1.5rem 0; }
 figure img { display: block; width: 100%; border: 1px solid var(--line); border-radius: 4px; background: #fff; }
 figcaption { color: var(--muted); font-size: .88rem; margin-top: .5rem; }
-.fig2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-.fig2 figure { margin: 0; }
-@media (max-width: 600px) { .fig2 { grid-template-columns: 1fr; } }
