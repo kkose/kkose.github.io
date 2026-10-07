@@ -72,3 +72,12 @@ table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .92re
 th, td { padding: .4rem .6rem; border-bottom: 1px solid var(--line); text-align: left; }
 th { border-bottom-width: 2px; }
 hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+
+/* paper write-ups */
+.tag { display: inline-block; font-size: .75rem; letter-spacing: .03em; text-transform: uppercase; padding: .1rem .5rem; border: 1px solid currentColor; border-radius: 3px; margin-right: .5rem; }
+figure { margin: 1.5rem 0; }
+figure img { display: block; width: 100%; border: 1px solid var(--line); border-radius: 4px; background: #fff; }
+figcaption { color: var(--muted); font-size: .88rem; margin-top: .5rem; }
+.fig2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.fig2 figure { margin: 0; }
+@media (max-width: 600px) { .fig2 { grid-template-columns: 1fr; } }
